@@ -183,8 +183,27 @@ def user_stats(df):
         print("\nMost Common Year:\nNo data available for this month.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
+<<<<<<< HEAD
+    print('-' * 40)
+||||||| 7b56292
+    print('-'*40)
+=======
     print('-' * 40)
 
+>>>>>>> refactoring
+
+def display_data(df):
+    x = 0
+    while True:
+        ask = input('Do you want to see raw data? Enter yes or no')
+        if (ask == 'yes'):
+            print (df.iloc[x:x+5])
+            x+=5
+        elif (ask == 'no'):
+            break
+        else:
+            print('only answer yes or no')
+    return
 
 def display_data(df):
     x = 0
@@ -203,7 +222,6 @@ def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
@@ -213,6 +231,11 @@ def main():
         if restart.lower() != 'yes':
             break
 
-
 if __name__ == "__main__":
+<<<<<<< HEAD
     main()
+||||||| 7b56292
+	main()
+=======
+    main()
+>>>>>>> refactoring
