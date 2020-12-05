@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+05/12/2020
 
 ### Project Title
-Replace the Project Title
+udacity project
 
 ### Description
-Describe what your project is about and what it does
+uploading udacity projects to github
 
 ### Files used
-Include the files used
+all
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://support.atlassian.com/bitbucket-cloud/docs/branch-a-repository/
